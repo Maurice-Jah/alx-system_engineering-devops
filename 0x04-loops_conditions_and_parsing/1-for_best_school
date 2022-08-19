@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # displays Holberton School 10 times
 
-for (( counter=10; counter>0; counter-- ))
+for _ in $(seq 1 10);
 do
-echo -n "Best School"
+	echo "Best School"
 done
-printf "\n"
